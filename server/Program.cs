@@ -28,13 +28,15 @@ var app = builder.Build();
 // Use CORS policy
 app.UseCors("AllowAll");
 
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 app.Urls.Add("http://localhost:7216");
 
+app.MapGet("/",() =>
+   "ToDoServer is running");
 app.MapGet("/todoitems", async (ToDoDbContext db) =>
     await db.Items.ToListAsync());
 
