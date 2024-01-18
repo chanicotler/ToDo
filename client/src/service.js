@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set default API address using Config Defaults
-axios.defaults.baseURL = "http://localhost:7216";
+axios.defaults.baseURL = "process.env.REACT_APP_API_ADDRESS";
 
 // Add an error interceptor
 axios.interceptors.response.use(
