@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set default API address using Config Defaults
-axios.defaults.baseURL = "process.env.REACT_APP_API_ADDRESS";
+axios.defaults.baseURL = process.env.REACT_APP_API_ADDRESS;
 
 // Add an error interceptor
 axios.interceptors.response.use(
@@ -14,10 +14,6 @@ axios.interceptors.response.use(
     return Promise.reject(error);
   }
 );
-fetch(apiUrl)
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error fetching data:', error));
 
 export default {
   getTasks: async () => {
