@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kMzATpisxTAmEHOWGumV96nm22qZyueb68AuiGi+eoH2u+NzzRB1dGtRhGxlbPu/5YagKgOfIUZc/Iq+qygSKA==",
+  "dgSpecHash": "hgVC5kGjs/zMSRRLOnycZ0ATQUaas1qAy00cS2L8ZxON9kyubfZDmSjOyBpAPThK70Hqyemyu/FnW84fsrGMSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chani\\studiesProjects\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chani\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\chani\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.1\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chani\\studiesProjects\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chani\\studiesProjects\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chani\\studiesProjects\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\chani\\studiesProjects\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\chani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chani\\studiesProjects\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\chani\\studiesProjects\\ToDoListReact-master\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
