@@ -33,7 +33,7 @@ app.UseCors("AllowAll");
     app.UseSwagger();
     app.UseSwaggerUI();
 // }
-app.Urls.Add("http://localhost:7216");
+// app.Urls.Add("http://localhost:7216");
 
 app.MapGet("/",() =>
    "ToDoServer is running");
