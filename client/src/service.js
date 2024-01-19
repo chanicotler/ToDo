@@ -1,14 +1,6 @@
 import axios from 'axios';
 
-
-// Set default API address using Config Defaults
-console.log('REACT_APP_API_ADDRESS:', process.env.REACT_APP_API_ADDRESS);
-axios.defaults.baseURL = process.env.REACT_APP_API_ADDRESS;
-
-// ... rest of the code ...
-
-
-
+require('dotenv').config()
 // Set default API address using Config Defaults
 axios.defaults.baseURL = process.env.REACT_APP_API_ADDRESS;
 
