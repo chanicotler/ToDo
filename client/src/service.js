@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 console.log(process.env)
-// Set default API address using Config Defaults
+
 axios.defaults.baseURL = process.env.REACT_APP_API_ADDRESS;
 
 // Add an error interceptor
