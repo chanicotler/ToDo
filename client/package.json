@@ -15,7 +15,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+      "plugins": ["import"],
+      "rules": {
+        "import/no-unresolved": "off" 
+      }
   },
   "browserslist": {
     "production": [
