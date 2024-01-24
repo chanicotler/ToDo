@@ -2,7 +2,7 @@ import axios from 'axios';
 
 console.log(process.env)
 
-axios.defaults.baseURL = process.env.REACT_APP_API_ADDRESS;
+axios.defaults.baseURL = process.env.REACT_APP_API_KEY;
 
 // Add an error interceptor
 axios.interceptors.response.use(
@@ -19,7 +19,7 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     try {
-const result = await axios.get(`${process.env.REACT_APP_API_ADDRESS}/todoitems`);
+const result = await axios.get(`${process.env.REACT_APP_API_KEY}/todoitems`);
       return result.data;
     } catch (error) {
       console.error('Error fetching tasks:', error);
