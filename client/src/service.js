@@ -2,7 +2,7 @@ import axios from 'axios';
 
 console.log(process.env)
 
-axios.defaults.baseURL ="https://todoserver-vt1g.onrender.com";
+axios.defaults.baseURL =process.env.REACT_APP_KEY;
 
 // Add an error interceptor
 axios.interceptors.response.use(
@@ -19,7 +19,7 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     try {
-const result = await axios.get(`https://todoserver-vt1g.onrender.com/todoitems`);
+const result = await axios.get(${process.env.REACT_APP_KEY}/todoitems`);
       return result.data;
     } catch (error) {
       console.error('Error fetching tasks:', error);
