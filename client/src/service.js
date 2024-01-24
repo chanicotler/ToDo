@@ -2,7 +2,7 @@ import axios from 'axios';
 
 console.log(process.env)
 
-axios.defaults.baseURL = process.env.REACT_APP_KEY;
+axios.defaults.baseURL =process.env.REACT_APP_KEY;
 
 // Add an error interceptor
 axios.interceptors.response.use(
